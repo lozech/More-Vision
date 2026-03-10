@@ -273,7 +273,7 @@ main .panel .about .first-card{
 
 main .panel .about .info{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/infothum.png);
+  , url(images/infothum.png);
   transform: translateX(0) scale(1);
   z-index: 1;
 }
@@ -379,7 +379,7 @@ main .panel .info-modal .info-about .info-txt .infomodal-cont1 .aomg{
 /* launching film */
 main .panel .about .launch{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/launthum.jpg);
+  , url(images/launthum.jpg);
   transform: translateX(1px) scale(1);
   z-index: 1;
   transition: transform 0.2s ease;
@@ -716,7 +716,7 @@ main .panel .artist-section .nav-btn .pageGuide p{
 /* jaypark */
 main .panel .artist-section .jaypark{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/jaypark.jpg);
+  , url(images/jaypark.jpg);
   transform: translateX(0) scale(1);
   z-index: 1;
 }
@@ -727,7 +727,7 @@ main .panel .artist-section .read-card:hover{
 /* longshot */
 main .panel .artist-section .longshot{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/longshot.jpg);
+  , url(images/longshot.jpg);
   transform: translateX(0) scale(1);
   z-index: 1;
 }
@@ -735,7 +735,7 @@ main .panel .artist-section .longshot{
 /* chungha */
 main .panel .artist-section .chungha{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/chungha.jpg);
+  , url(images/chungha.jpg);
   transform: translateX(0) scale(1);
   z-index: 1;
 }
@@ -743,7 +743,7 @@ main .panel .artist-section .chungha{
 /* honeyJ */
 main .panel .artist-section .honeyJ{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/honeyj-pro.jpg);
+  , url(images/honeyj-pro.jpg);
   transform: translateX(0) scale(1);
   z-index: 1;
 }
@@ -751,7 +751,7 @@ main .panel .artist-section .honeyJ{
 /* holybang */
 main .panel .artist-section .holybang{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/holybang.jpg);
+  , url(images/holybang.jpg);
   transform: translateX(0) scale(1);
   z-index: 1;
 }
@@ -759,7 +759,7 @@ main .panel .artist-section .holybang{
 /* mvp */
 main .panel .artist-section .mvp{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/mvp.jpg);
+  , url(images/mvp.jpg);
   transform: translateX(0) scale(1);
   z-index: 1;
 }
@@ -1018,13 +1018,13 @@ main .panel .careers .third-card{
 }
 main .panel .careers-section .recruit{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/recruit.png);
+  , url(images/recruit.png);
   transform: translateX(0) scale(1);
   z-index: 1;
 }
 main .panel .careers-section .howwe{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/howwework.png);
+  , url(images/howwework.png);
   transform: translateX(0) scale(1);
   z-index: 1;
 }
@@ -1264,7 +1264,7 @@ main .panel .auditions .audi-card{
 }
 main .panel .audition-section .audi-card{
   background-image: linear-gradient(rgba(0, 0, 0, 0), 85%, rgba(0, 0, 0, 0.482))
-  , url(/images/audition.png);
+  , url(images/audition.png);
   transform: translateX(0) scale(1);
   z-index: 1;
 }
