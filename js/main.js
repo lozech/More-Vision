@@ -662,8 +662,8 @@ const auditionSwiper = initSwiper(".audition-section", ".auditions.mySwiper");
     });
 
     // 채용모달 채용 사이트 이동 버튼
-    const select = document.getElementById("jobSelect");
-    const btn = document.getElementById("goBtn");
+    const select = document.getElementById("recruit-category");
+    const btn = document.querySelector("goBtn");
 select.addEventListener("change", () => {
     if(select.value){
         btn.disabled = false;

@@ -1185,11 +1185,22 @@ main .panel .careers-modal .careers-about .careers-txt{
   padding: 0 19px;
   box-sizing: border-box;
 }
+main .panel .careers-modal .careers-about .careers-txt .recruit-cont{
+  font-size: 17px;
+  margin-bottom: 35px;
+}
 main .panel .careers-modal .careers-about .careers-txt .howwe-conttit{
   font-size: 27px;
   font-weight: 500;
 }
 main .panel .careers-modal .careers-about .careers-txt .modal-cont3tit{
+  font-size: 27px;
+  font-weight: 500;
+  margin: 40px 0 35px;
+}
+main .panel .careers-modal .careers-about .careers-txt .modal-cont3tit1{
+  font-size: 27px;
+  font-weight: 500;
   margin: 40px 0 0px;
 }
 main .panel .careers-modal .careers-about .careers-txt .modal-cont3tit2{
@@ -1206,7 +1217,15 @@ main .panel .careers-modal .careers-about .careers-txt .cont{
 main .panel .careers-modal .careers-about .careers-txt .cont .modal-gray{
   color: #999999;
 }
-
+main .panel .careers-modal .careers-about .careers-txt #recruit-category{
+  width: 524px;
+  height: 40px;
+  background-color: #eee;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0 10px 0;
+  font-size: 15px;
+}
 
 
 /* audition-section */

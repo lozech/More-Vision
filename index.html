@@ -7,9 +7,11 @@
     <link rel="icon" href="images/official_favicon.png">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/4aff7483c9.js" crossorigin="anonymous"></script>
     <script src="js/main.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
     <header>
@@ -1031,17 +1033,19 @@
                                 </div>
                                 <div class="recruit-txt careers-txt">
                                     <p class="modal-cont3tit">RECRUIT</p>
-                                    <div class="infomodal-cont1">
+                                    <div class="infomodal-cont1 recruit-cont">
                                         <p class="modal-cont">모어비전은 장르와 비즈니스 모델에</p>
                                         <p class="modal-cont">경계, 한계, 편견이 없는 엔터테인먼트허브입니다.</p>
                                     </div>
-                                    <select id="jobSelect">
-                                        <option value="" disabled selected hidden>채용 공고 선택</option>
-                                        <option value="https://kr.linkedin.com/company/morevisionkr?trk=ppro_cprof">Linkedin</option>
-                                        <option value="https://www.jobkorea.co.kr/company/48812921/recruit">잡코리아</option>
-                                        <option value="https://linkareer.com/activity/269657">링커리어</option>
-                                    </select>
-                                    <button id="goBtn" disabled>채용 페이지 이동</button>
+                                    <div class="job flex items-center gap-1">
+                                        <select name="recruit-category" id="recruit-category">
+                                            <option value="" disabled selected hidden>채용 공고 선택</option>
+                                            <option value="https://kr.linkedin.com/company/morevisionkr?trk=ppro_cprof">Linkedin</option>
+                                            <option value="https://www.jobkorea.co.kr/company/48812921/recruit">잡코리아</option>
+                                            <option value="https://linkareer.com/activity/269657">링커리어</option>
+                                        </select>
+                                        <button class="goBtn btn btn-neutral btn-outline">채용 페이지 이동</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1051,7 +1055,7 @@
                                     <img class="modal-closeBtn" src="images/close-btn.png" alt="modal-close">
                                 </div>
                                 <div class="howwe-txt careers-txt">
-                                    <p class="modal-cont3tit howwe-conttit">HOW</p>
+                                    <p class="modal-cont3tit1 howwe-conttit">HOW</p>
                                     <p class="modal-cont3tit2 howwe-conttit">WE WORK</p>
                                     <div class="infomodal-cont1 cont">
                                         <p class="modal-cont">Create a healthy and authentic culture</p>
