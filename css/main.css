@@ -1232,6 +1232,7 @@ main .panel .careers-modal .careers-about .careers-txt #recruit-category{
   border-radius: 0.25rem;
   padding: 0 10px 0;
   font-size: 15px;
+  outline: none;
 }
 
 
