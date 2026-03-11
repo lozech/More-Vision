@@ -919,6 +919,8 @@ main .panel .artist-modal .artist-about .artist-txt .artist-video{
 main .panel .artist-modal .artist-about .artist-txt .artist-video a{
   user-select: none;
   -webkit-user-drag: none;
+  flex-shrink: 0;
+  width: fit-content;
 }
 main .panel .artist-modal .artist-about .artist-txt .artist-video img{
   pointer-events: none;
@@ -934,10 +936,14 @@ main .panel .artist-modal .artist-about .artist-txt .artist-video .music-album{
   width: 155px;
   height: 155px;
   border-radius: 0.25rem;
+  display: block;
 }
 main .panel .artist-modal .artist-about .artist-txt .artist-video p{
+  width: 150px;
   font-size: 13px;
   opacity: 0.8;
+  line-height:1.3;
+  word-break: break-word;
 }
 
 /* careers-section */
