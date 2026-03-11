@@ -333,6 +333,10 @@ const auditionSwiper = initSwiper(".audition-section", ".auditions.mySwiper");
 
 
     infoCard.addEventListener("click", (e) => {
+        const slide = card.closest(".swiper-slide");
+    if(!slide.classList.contains("swiper-slide-active")) return;
+
+        if(modalOpen) return;
         if (infoCard.classList.contains("open")) return;
 
         const wrapper = infoCard.closest(".card-wrap");
@@ -385,6 +389,10 @@ const auditionSwiper = initSwiper(".audition-section", ".auditions.mySwiper");
 
     artistcards.forEach((artistcard, index) => {
         artistcard.addEventListener("click", () => {
+            const slide = artistcard.closest(".swiper-slide");
+            if(!slide.classList.contains("swiper-slide-active")) return;
+
+            if(modalOpen) return;
             modalOpen = true;
 
             const wrapper = artistcard.closest(".card-wrap");
@@ -631,6 +639,10 @@ const auditionSwiper = initSwiper(".audition-section", ".auditions.mySwiper");
 
     careersCard.forEach((card,index)=>{
         card.addEventListener("click",(e)=>{
+            const slide = card.closest(".swiper-slide");
+            if(slide && !slide.classList.contains("swiper-slide-active")) return;
+
+            if(modalOpen) return;
             modalOpen = true;
 
             if(card.classList.contains("open")) return;
