@@ -333,7 +333,7 @@ const auditionSwiper = initSwiper(".audition-section", ".auditions.mySwiper");
 
 
     infoCard.addEventListener("click", (e) => {
-        const slide = card.closest(".swiper-slide");
+        const slide = infoCard.closest(".swiper-slide");
     if(!slide.classList.contains("swiper-slide-active")) return;
 
         if(modalOpen) return;
