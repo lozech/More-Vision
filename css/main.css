@@ -1352,4 +1352,443 @@ main .panel .audition-section .nav-btn .pageGuide p{
   cursor: pointer;
 }
 
+/* responsive only */
+@media (max-width: 1024px){
+  main{
+    height: 100svh;
+    min-height: 620px;
+    padding-top: 58px;
+  }
+
+  main .panel .about,
+  main .panel .about .first-card,
+  main .panel .artistscard,
+  main .panel .artistscard .second-card,
+  main .panel .careers,
+  main .panel .careers .third-card,
+  main .panel .auditions,
+  main .panel .auditions .audi-card,
+  .swiper-slide{
+    width: min(41vh, 58vw);
+    height: min(65vh, calc(100svh - 210px));
+  }
+
+  main .panel .about-section .previous,
+  main .panel .artist-section .previous,
+  main .panel .careers-section .previous,
+  main .panel .audition-section .previous{
+    left: 2%;
+  }
+
+  main .panel .about-section .next,
+  main .panel .artist-section .next,
+  main .panel .careers-section .next,
+  main .panel .audition-section .next{
+    right: 2%;
+  }
+
+  main .panel .about-section .nav-btn,
+  main .panel .artist-section .nav-btn,
+  main .panel .careers-section .nav-btn,
+  main .panel .audition-section .nav-btn{
+    width: 110px;
+  }
+
+  main .panel .about-section .nav-btn .pageGuide p,
+  main .panel .artist-section .nav-btn .pageGuide p,
+  main .panel .careers-section .nav-btn .pageGuide p,
+  main .panel .audition-section .nav-btn .pageGuide p{
+    display: none;
+  }
+
+  main .company{
+    position: absolute;
+    left: 50%;
+    bottom: 24px;
+    margin: 0;
+    gap: 24px;
+    transform: translate(-50%, 40px);
+  }
+
+  body.loaded .company{
+    transform: translate(-50%, 0);
+  }
+
+  main .company .pageChange{
+    width: 190px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 34px;
+  }
+
+  main .company .more-name{
+    gap: 24px;
+  }
+
+  main .company .more-name img:first-child{
+    width: 180px;
+  }
+
+  main .company .more-name img:last-child{
+    width: 34px;
+  }
+
+  main .panel .info-modal.show,
+  main .panel .artist-modal.show,
+  main .panel .careers-modal.show{
+    width: min(760px, calc(100vw - 48px));
+  }
+}
+
+@media (max-width: 640px){
+  header{
+    display: block;
+    padding: 12px 14px 0;
+  }
+
+  header .gnb,
+  header .etc{
+    margin: 0;
+  }
+
+  header .gnb{
+    max-width: 245px;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+  }
+
+  header .etc{
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    gap: 10px;
+  }
+
+  header .gnb p,
+  header .etc div p{
+    font-size: 11px;
+  }
+
+  header .etc > div > ul,
+  header .etc > div > ul > li > a{
+    width: 132px;
+  }
+
+  header .etc > div > ul > li > a{
+    font-size: 12px;
+  }
+
+  main{
+    min-height: 560px;
+    padding-top: 82px;
+  }
+
+  main .panel .about,
+  main .panel .about .first-card,
+  main .panel .artistscard,
+  main .panel .artistscard .second-card,
+  main .panel .careers,
+  main .panel .careers .third-card,
+  main .panel .auditions,
+  main .panel .auditions .audi-card,
+  .swiper-slide{
+    width: min(72vw, 310px);
+    height: min(56svh, calc(100svh - 220px));
+  }
+
+  main .panel .about .first-card,
+  main .panel .artistscard .second-card,
+  main .panel .careers .third-card,
+  main .panel .auditions .audi-card{
+    overflow: hidden;
+  }
+
+  main .panel .swiper-slide:not(.swiper-slide-active) .about-cont,
+  main .panel .swiper-slide:not(.swiper-slide-active) .career-cont,
+  main .panel .swiper-slide:not(.swiper-slide-active) .name,
+  main .panel .swiper-slide:not(.swiper-slide-active) .read-card,
+  main .panel .swiper-slide:not(.swiper-slide-active) .close-card{
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  main .panel .about .about-cont,
+  main .panel .artistscard .name,
+  main .panel .careers .career-cont{
+    font-size: 28px;
+  }
+
+  main .panel .artistscard .name{
+    padding: calc(min(56svh, calc(100svh - 220px)) - 112px) 12px 16px;
+    white-space: normal;
+  }
+
+  main .panel .about .cont1{
+    padding-top: calc(min(56svh, calc(100svh - 220px)) - 125px);
+  }
+
+  main .panel .careers .career-cont1{
+    padding-top: calc(min(56svh, calc(100svh - 220px)) - 112px);
+  }
+
+  main .panel .auditions .read-card{
+    margin-top: calc(min(56svh, calc(100svh - 220px)) - 78px);
+  }
+
+  main .panel .about-section .nav-btn,
+  main .panel .artist-section .nav-btn,
+  main .panel .careers-section .nav-btn,
+  main .panel .audition-section .nav-btn{
+    width: 44px;
+    height: 60px;
+    padding: 8px;
+    top: 43%;
+  }
+
+  main .panel .about-section .nav-btn .pageGuide .arrows,
+  main .panel .artist-section .nav-btn .pageGuide .arrows,
+  main .panel .careers-section .nav-btn .pageGuide .arrows,
+  main .panel .audition-section .nav-btn .pageGuide .arrows{
+    width: 28px;
+    height: auto;
+    margin: 0;
+  }
+
+  main .panel .about-section .line,
+  main .panel .artist-section .line,
+  main .panel .careers-section .line{
+    bottom: 82px;
+  }
+
+  main .panel .about-section .line > div,
+  main .panel .careers-section .line > div{
+    width: 88px;
+  }
+
+  main .panel .artist-section .line > div{
+    width: 28px;
+  }
+
+  main .company{
+    bottom: 18px;
+    gap: 12px;
+  }
+
+  main .company .pageChange{
+    width: 116px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 7px;
+    font-size: 20px;
+  }
+
+  main .company .more-name{
+    gap: 12px;
+  }
+
+  main .company .more-name img:first-child{
+    width: 110px;
+  }
+
+  main .company .more-name img:last-child{
+    width: 24px;
+  }
+
+  main .panel .info-modal.show,
+  main .panel .artist-modal.show,
+  main .panel .careers-modal.show{
+    width: calc(100vw - 24px);
+  }
+
+  main .panel .info-modal .info-about,
+  main .panel .artist-modal .artist-about,
+  main .panel .careers-modal .careers-about{
+    max-height: calc(100svh - 150px);
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 640px){
+  main .panel .about .first-card,
+  main .panel .artistscard .second-card,
+  main .panel .careers .third-card,
+  main .panel .auditions .audi-card{
+    overflow: visible;
+  }
+
+  main .panel .about .cont1{
+    padding-top: calc(min(56svh, calc(100svh - 220px)) - 142px);
+  }
+
+  main .panel .about .cont2{
+    margin-bottom: 14px;
+  }
+
+  main .panel .artistscard .name{
+    padding: calc(min(56svh, calc(100svh - 220px)) - 128px) 12px 14px;
+  }
+
+  main .panel .careers .career-cont1{
+    padding-top: calc(min(56svh, calc(100svh - 220px)) - 130px);
+  }
+
+  main .panel .careers .career-cont2{
+    margin-bottom: 14px;
+  }
+
+  main .panel .about .read-card,
+  main .panel .artistscard .read-card,
+  main .panel .careers .read-card,
+  main .panel .auditions .read-card{
+    width: 154px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+  }
+
+  main .panel .about-section .line,
+  main .panel .artist-section .line,
+  main .panel .careers-section .line{
+    bottom: 112px;
+  }
+
+  main .company{
+    justify-content: center;
+    width: auto;
+  }
+
+  main .company .more-name{
+    display: none;
+  }
+
+  main .company .pageChange{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+  }
+
+  main .panel .info-modal,
+  main .panel .artist-modal,
+  main .panel .careers-modal{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    max-width: calc(100vw - 24px);
+    z-index: 20000;
+  }
+
+  main .panel .info-modal.show,
+  main .panel .artist-modal.show,
+  main .panel .careers-modal.show{
+    width: calc(100vw - 24px);
+  }
+
+  main .panel .info-modal .info-about,
+  main .panel .artist-modal .artist-about,
+  main .panel .careers-modal .careers-about{
+    height: calc(100svh - 170px);
+    max-height: none;
+    border-radius: 10px;
+    overflow-y: auto;
+  }
+
+  main .panel .info-modal .info-about .close,
+  main .panel .artist-modal .artist-about .close,
+  main .panel .careers-modal .careers-about .close{
+    top: 16px;
+    right: 16px;
+  }
+
+  main .panel .info-modal .info-about .info-txt,
+  main .panel .artist-modal .artist-about .artist-txt{
+    display: block;
+  }
+
+  main .panel .info-modal .info-about .info-txt .modal-cont3tit{
+    line-height: 1;
+    padding: 42px 24px 0;
+    font-size: 22px;
+  }
+
+  main .panel .info-modal .info-about .info-txt .infomodal-cont1,
+  main .panel .artist-modal .artist-about .artist-txt .infomodal-cont1,
+  main .panel .artist-modal .artist-about .artist-txt .infomodal-cont2,
+  main .panel .artist-modal .artist-about .artist-txt .infomodal-cont3{
+    margin: 24px;
+    font-size: 14px;
+  }
+
+  main .panel .info-modal .info-about .info-txt .infomodal-cont1 .aomg{
+    margin-top: 48px;
+  }
+
+  main .panel .artist-modal .artist-about .artist-txt .modal-cont3tit{
+    padding: 42px 24px 0;
+    font-size: 22px;
+  }
+
+  main .panel .artist-modal .artist-about .artist-txt .artist-video .music-video{
+    width: 220px;
+    height: 124px;
+  }
+
+  main .panel .artist-modal .artist-about .artist-txt .artist-video .music-album{
+    width: 124px;
+    height: 124px;
+  }
+
+  main .panel .careers-modal .careers-about .careers-txt{
+    margin: 0 24px 32px;
+    padding: 0;
+  }
+
+  main .panel .careers-modal .careers-about .careers-txt .modal-cont3tit,
+  main .panel .careers-modal .careers-about .careers-txt .modal-cont3tit1,
+  main .panel .careers-modal .careers-about .careers-txt .howwe-conttit{
+    font-size: 22px;
+  }
+
+  main .panel .careers-modal .careers-about .careers-txt .recruit-cont,
+  main .panel .careers-modal .careers-about .careers-txt .cont{
+    font-size: 14px;
+  }
+
+  main .panel .careers-modal .careers-about .careers-txt #recruit-category{
+    width: 100%;
+  }
+
+  main .panel .launch-modal{
+    width: calc(100vw - 24px);
+    height: calc(100svh - 170px);
+    left: 50%;
+    right: auto;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  main .panel .launch-modal .close{
+    right: 8px;
+  }
+}
+
+@media (max-width: 640px){
+  main .panel .about-section .line,
+  main .panel .artist-section .line,
+  main .panel .careers-section .line{
+    bottom: 155px !important;
+  }
+
+  main .company{
+    bottom: 58px !important;
+  }
+
+  main .company .pageChange{
+    height: 38px;
+    line-height: 38px;
+  }
+}
+
 
